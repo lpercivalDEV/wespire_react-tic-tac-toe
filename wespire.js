@@ -33,3 +33,9 @@
 // Logic out the next possible steps!!!!!!
 //        --> win, lose, tie, score keeping, audio, visuals, etc.
 // -------------------------------------------------------------------------//
+
+let test = document.getElementById("testjs");
+
+test.addEventListener("click", function(){
+    alert("I work!");
+}, false);
